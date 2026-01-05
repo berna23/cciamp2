@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({ setRoute }) => {
               Lorem Ipsum Dolor
             </span>
             <h1 className="text-5xl lg:text-8xl font-serif text-stone-900 leading-[1.1] mb-8">
-              Lorem ipsum <span className="italic text-brand">dolor</span> sit <span className="italic text-brand-dark">amet</span>.
+              Lorem ipsum dolor sit <span className="italic text-brand-dark" style={{ color: 'rgb(182, 144, 64)' }}>amet</span>.
             </h1>
             <p className="text-lg lg:text-2xl text-stone-600 mb-10 max-w-2xl leading-relaxed font-light">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -27,7 +27,7 @@ const Hero: React.FC<HeroProps> = ({ setRoute }) => {
                 className="flex items-center gap-4 text-stone-900 font-bold uppercase tracking-widest text-xs hover:text-brand transition-colors"
               >
                 Lorem Ipsum
-                <ArrowRight className="w-5 h-5 text-brand" />
+                <ArrowRight className="w-5 h-5 text-brand" style={{ color: 'rgba(0, 0, 0, 1)' }} />
               </button>
             </div>
           </div>

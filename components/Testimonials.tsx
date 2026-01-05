@@ -14,7 +14,7 @@ const Testimonials: React.FC = () => {
             Lorem Ipsum
           </span>
           <h2 className="text-5xl lg:text-7xl font-serif text-stone-900 italic leading-tight">
-            Lorem ipsum <span className="text-brand">dolor</span>.
+            Lorem ipsum <span className="text-brand" style={{ color: 'rgb(182, 144, 64)' }} >dolor</span>.
           </h2>
         </div>
       </div>
@@ -34,7 +34,7 @@ const Testimonials: React.FC = () => {
             className="w-[85vw] md:w-[480px] lg:w-[550px] group flex-shrink-0"
           >
             <div className="bg-white p-10 md:p-14 rounded-[4rem] border border-stone-100 shadow-sm h-full min-h-[380px] flex flex-col hover:shadow-xl transition-all">
-              <Quote className="text-brand-light w-12 h-12 mb-8" />
+              <Quote className="text-brand-light w-12 h-12 mb-8" style={{ color: '#000000ff' }}/>
 
               <p className="text-xl lg:text-2xl font-serif italic text-stone-900 font-medium leading-[1.6] mb-12 flex-1 tracking-tight">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -45,7 +45,7 @@ const Testimonials: React.FC = () => {
                   <h4 className="font-bold text-stone-900 text-lg">
                     Lorem Ipsum
                   </h4>
-                  <p className="text-brand font-bold uppercase tracking-widest text-[9px]">
+                  <p className="text-brand font-bold uppercase tracking-widest text-[9px]" style={{ color: 'rgb(182, 144, 64)' }}>
                     Dolor Sit
                   </p>
                 </div>

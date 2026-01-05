@@ -23,7 +23,7 @@ const ProfessionalsCarousel: React.FC<ProfessionalsCarouselProps> = ({ onNavigat
             Lorem Ipsum
           </span>
           <h2 className="text-4xl lg:text-6xl font-serif text-stone-900 italic leading-tight">
-            Lorem ipsum <span className="text-brand">dolor</span>.
+            Lorem ipsum <span className="text-brand" style={{ color: 'rgb(182, 144, 64)' }} >dolor</span>.
           </h2>
         </div>
       </div>

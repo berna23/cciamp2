@@ -60,11 +60,11 @@ const Navbar: React.FC<NavbarProps> = ({ currentRoute, setRoute }) => {
                 <button
                   key={item.label}
                   onClick={() => handleNavClick(item)}
-                  className={`text-[10px] font-bold tracking-[0.2em] uppercase transition-all hover:text-brand relative py-2 ${
-                    isRouteActive
-                      ? 'text-brand after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-brand' 
-                      : 'text-stone-500'
-                  }`}
+                  className={`text-[10px] font-bold tracking-[0.2em] uppercase transition-all relative py-2 hover:text-[#B69040] ${
+  isRouteActive
+    ? 'text-[#B69040] after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#B69040]'
+    : 'text-black'
+}`}
                 >
                   {item.label}
                 </button>

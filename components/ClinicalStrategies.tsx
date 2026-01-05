@@ -63,13 +63,13 @@ const ClinicalStrategies: React.FC = () => {
 
             <div className="flex gap-16 pt-10">
                <div>
-                 <p className="text-4xl font-serif text-stone-900 mb-1">XX+</p>
+                 <p className="text-4xl font-serif text-stone-900 mb-1" style={{ color: 'rgb(182, 144, 64)' }}>XX+</p>
                  <p className="text-[10px] font-bold uppercase tracking-widest text-stone-400">
                    Lorem Ipsum
                  </p>
                </div>
                <div>
-                 <p className="text-4xl font-serif text-stone-900 mb-1">X</p>
+                 <p className="text-4xl font-serif text-stone-900 mb-1" style={{ color: 'rgb(182, 144, 64)' }}>X</p>
                  <p className="text-[10px] font-bold uppercase tracking-widest text-stone-400">
                    Dolor Sit
                  </p>
@@ -77,8 +77,8 @@ const ClinicalStrategies: React.FC = () => {
             </div>
 
             <div className="pt-12">
-              <button className="flex items-center gap-3 text-stone-900 font-bold uppercase tracking-widest text-[10px] hover:text-brand transition-all group">
-                 <div className="w-1.5 h-1.5 rounded-full bg-brand group-hover:scale-150 transition-transform"></div>
+              <button className="flex items-center gap-3 text-stone-900 font-bold uppercase tracking-widest text-[10px] hover:text-brand transition-all group" >
+                 <div className="w-1.5 h-1.5 rounded-full bg-brand group-hover:scale-150 transition-transform" style={{ color: 'rgb(182, 144, 64)' }}></div>
                  Lorem Ipsum Notes
               </button>
             </div>
@@ -86,8 +86,8 @@ const ClinicalStrategies: React.FC = () => {
 
           <div className="lg:col-span-7 relative flex justify-center items-center py-20 lg:py-0">
             <div className="relative w-full max-w-[550px] aspect-square">
-              <svg className="absolute inset-0 w-full h-full opacity-10 pointer-events-none" viewBox="0 0 500 500">
-                <circle cx="250" cy="250" r="140" fill="none" stroke="#2D2926" strokeWidth="1" strokeDasharray="4 4" />
+              <svg style={{ color: 'rgb(182, 144, 64)' }}  sclassName="absolute inset-0 w-full h-full opacity-10 pointer-events-none" viewBox="0 0 500 500">
+                <circle cx="250" cy="250" r="140" fill="none" stroke="#B6904026" strokeWidth="1" strokeDasharray="4 4" />
               </svg>
 
               <ImageSphere 
@@ -122,7 +122,7 @@ const ClinicalStrategies: React.FC = () => {
               />
 
               <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 text-center w-full">
-                 <p className="text-[9px] font-bold uppercase tracking-[0.2em] text-stone-800">
+                 <p className="text-[9px] font-bold uppercase tracking-[0.2em] text-stone-800" style={{ color: 'rgb(182, 144, 64)' }}>
                    Lorem Ipsum Manual
                  </p>
                  <p className="text-[7px] uppercase tracking-widest text-stone-400 mt-1 opacity-60">

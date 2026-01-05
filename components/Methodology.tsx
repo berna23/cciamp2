@@ -28,7 +28,7 @@ const Methodology: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white/5 backdrop-blur-md border border-white/10 p-10 rounded-[2.5rem] hover:bg-white/10 transition-all group">
-              <Microscope className="w-10 h-10 text-brand mb-8 group-hover:scale-110 transition-transform" />
+              <Microscope className="w-10 h-10 text-brand mb-8 group-hover:scale-110 transition-transform" style={{ color: '#ecd8b1' }}/>
               <h3 className="text-2xl font-bold text-white mb-4">
                 Lorem Ipsum
               </h3>
@@ -38,7 +38,7 @@ const Methodology: React.FC = () => {
             </div>
 
             <div className="bg-white/5 backdrop-blur-md border border-white/10 p-10 rounded-[2.5rem] hover:bg-white/10 transition-all group">
-              <Shield className="w-10 h-10 text-brand mb-8 group-hover:scale-110 transition-transform" />
+              <Shield className="w-10 h-10 text-brand mb-8 group-hover:scale-110 transition-transform" style={{ color: '#ecd8b1' }}/>
               <h3 className="text-2xl font-bold text-white mb-4">
                 Dolor Sit
               </h3>
@@ -48,7 +48,7 @@ const Methodology: React.FC = () => {
             </div>
 
             <div className="bg-white/5 backdrop-blur-md border border-white/10 p-10 rounded-[2.5rem] hover:bg-white/10 transition-all group">
-              <Book className="w-10 h-10 text-brand mb-8 group-hover:scale-110 transition-transform" />
+              <Book className="w-10 h-10 text-brand mb-8 group-hover:scale-110 transition-transform" style={{ color: '#ecd8b1' }}/>
               <h3 className="text-2xl font-bold text-white mb-4">
                 Consectetur
               </h3>
@@ -58,7 +58,7 @@ const Methodology: React.FC = () => {
             </div>
 
             <div className="bg-white/5 backdrop-blur-md border border-white/10 p-10 rounded-[2.5rem] hover:bg-white/10 transition-all group">
-              <Heart className="w-10 h-10 text-brand mb-8 group-hover:scale-110 transition-transform" />
+              <Heart className="w-10 h-10 text-brand mb-8 group-hover:scale-110 transition-transform" style={{ color: '#ecd8b1' }}/>
               <h3 className="text-2xl font-bold text-white mb-4">
                 Adipiscing
               </h3>
