@@ -1,0 +1,7 @@
+{
+  "name": "CCIAPM VERSÃO 2",
+  "description": "Uma plataforma moderna para uma clínica de psicologia de vanguarda, unindo atendimento clínico humanizado e investigação científica avançada.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
